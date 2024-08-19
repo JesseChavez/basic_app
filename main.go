@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "basic_app/config"
 
 func main() {
-	fmt.Println("Hello world!")
+	config.RunApplication()
 }
